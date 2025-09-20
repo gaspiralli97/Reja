@@ -38,8 +38,8 @@ app.post("/create-item", (req, res) =>{
     res.json({test:"success"});
 });
 
-app.get(`/portfolio`, (req, res) =>{
-    res.render("portfolio", {user: user});
+app.get("/author", (req, res) =>{
+    res.render("author", {user: user});
 });
 
 app.get("/",function(req, res){
