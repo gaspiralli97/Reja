@@ -1,0 +1,716 @@
+
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #e5e5e5;
+}
+
+.main_frame {
+    position: relative;
+    width: 1440px;
+    height: 1315px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin-top: 2px;
+    
+}
+
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    background-color: white;
+    padding-left: 37px;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.left_frame .left1 {
+    position: relative;
+    width: 228px;
+    height: 267px;
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left_frame .left1 .left1_img{
+    position: relative;
+    width: 156px;
+    height: 135px;
+
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_frame .left1 div {
+    position: relative;
+    
+
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+
+}
+
+.left1 div strong {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-top: 20px;
+}
+
+.left1 div p {
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+
+
+}
+
+.left1 .social_icon {
+    width:228px;
+    height: 50px;
+    
+
+    
+    justify-content: space-between;
+}
+.left1 .social_icon .link {
+    width: 24px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left1 .social_icon .icon {
+    width: 24px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_frame .border {
+    position: relative;
+    width: 220px;
+    height: 1px;
+    background-color: rgb(241, 237, 237);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.left_frame .left2 {
+    position: relative;
+    width: 221px;
+    height: 126px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.left_frame .left2 .about {
+    width:auto ;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.left_frame .left2 .about strong {
+    background-color: orange;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+     text-transform: capitalize;
+
+}
+
+.left_frame .left3{
+    position: relative;
+    width: 220px;
+    height: 160px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left_frame .left3 .lang {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left_frame .left3 .lang div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.left_frame .left3 .lang .persentage2 {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_frame .left3 .lang .persentage2 div {
+    width: 100%;
+    height: 2px;
+    background: orange;
+}
+
+
+.left_frame .left3 .lang .persentage3 div {
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+}
+
+.left_frame .left3 .lang .persentage3 {
+    width: 50%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.left_frame .left3 .lang .persentage {
+    width: 100%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.left_frame .left3 .lang .persentage2 {
+    width: 70%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.left_frame .left4{
+    position: relative;
+    width: 220px;
+    height: 242px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left4 .skill {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left4 .skill div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.left_frame .left4 .skill .persentage {
+    width: 90%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+.left_frame .left4 .skill .persentage2 {
+    width: 90%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.left_frame .left4 .skill .persentage3 {
+    width: 90%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.left_frame .left4 .skill .persentage4 {
+    width: 90%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.left_frame .left4 .skill .persentage5 {
+    width: 80%;
+    height: 2px;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.left5 {
+    position: relative;
+    width: 220px;
+    height: 155px;
+     display: flex;
+     flex-direction: column;
+}
+
+.left5 div strong {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.left5 .extra {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.left5 .extra a {
+    margin-right: 15px;
+}
+
+.left5 .extra span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+/* left frame end */
+
+/* middle frame start */
+.main_frame .middle_frame {
+    position: relative;
+    width: 970px;
+    height:1312px;
+    margin-left: 35px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.middle_frame .top {
+    position: relative;
+    width: 971px;
+    height: 455px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.middle_frame .top .top_content {
+    position: relative;
+    width: 550px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.middle_frame .top .top_content .svg3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.middle_frame .top .top_content .svg4{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+.middle_frame .top .top_content .svg5{
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+}
+.middle_frame .top .top_content .svg6{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+.middle_frame .top .top_content .svg7{
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.middle_frame .top .top_content strong{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 123.6%;
+    letter-spacing: 0%;
+
+}
+
+.middle_frame .top .top_content span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgb(104, 116, 122);
+    text-transform: capitalize;
+}
+
+.middle_frame .top .top_content button {
+    
+    width: 154px;
+    height: 51px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px 32px 16px 32px;
+    background-color: orange;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+
+}
+
+.middle_frame .top .my_pic {
+    position: relative;
+    width: 326px;
+    height: 100%;
+    padding-right: 70px;
+}
+
+.middle_frame .top .my_pic .svg {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.middle_frame .top .my_pic .svg2 {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.middle_frame .service {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_frame .service strong {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.middle_frame .service span {
+    position: relative;
+    width: 440px;
+    height: 70px;
+
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    text-align: center;
+    text-transform: capitalize;
+
+    color: rgb(104, 116, 122);
+}
+
+.middle_frame .list {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.middle_frame .list .list_content {
+    position: relative;
+    width: 310px;
+    height: 225px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 6px;
+    background-color: white;
+}
+
+.list .list_content div img {
+    
+}
+
+.list .list_content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list .list_content div strong {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+    text-transform: capitalize;
+}
+
+.list .list_content div span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    text-align: center;
+    text-transform: capitalize;
+
+    color: rgb(104, 116, 122);
+}
+
+.list .list_content .adv {
+    position: relative;
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.list .list_content .adv strong{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+    text-transform: capitalize;
+}
+
+.list .list_content .adv span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    text-align: center;
+    text-transform: capitalize;
+
+    color: rgb(104, 116, 122);
+    margin-top:20px;
+}
+
+.list .list_content a div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+
+
+}
+
+/* middle frame end */
+
+/* right frame start */
+
+.main_frame .right_frame {
+    position: relative;
+    width: 108px;
+    height: 1312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.right_frame .right_top {
+    position: relative;
+    width: 40px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_frame .right_top div img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_frame .right_top .home {
+    position: relative;
+    width: 80px;
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right_frame .right_top .home .hom1{
+   
+    width: 70px;
+    height: 33px;
+    margin-right: 40px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_frame .right_top .home div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-right: 40px;
+}
+
+.right_frame .right_top .home .hom2 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+   
+}
+
+.right_frame .right_bottom {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_frame .right_bottom div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right_frame .right_bottom div img {
+
+}
+
