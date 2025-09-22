@@ -1,5 +1,36 @@
+//TASK-A
 
-console.log("Jack Ma maslahatlari");
+
+function countLetter(x, y) {
+    let count = 0;
+    
+    for(let i=0; i <x.length; i++) {
+        if (x[i] ===y) {
+            count=count+1;
+        }
+        
+         
+    }
+    return count;
+}
+
+const answer =countLetter("mamaqaldirog","m");
+console.log("answer:", answer);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*console.log("Jack Ma maslahatlari");
 
 const list=[
     "yaxshi talaba buling", //0-20
@@ -8,7 +39,7 @@ const list=[
     "siz kuchli bulgan narsalarni qiling", //40-50
     "yoshlarga investitsiya qiling", //50-60
     "endi dam oling , foydasi yuq", //60..
-];
+];  */
 
 /* function maslahatBering (a, callback) {
     if (typeof a !=="number") callback("insert a number", null);
@@ -27,7 +58,7 @@ maslahatBering (45, (err, data) =>{
     console.log("javob:", data);
 }) */
 
- async function maslahatBering (a) {
+ /*async function maslahatBering (a) {
     if (typeof a !=="number") throw new Error("insert a number");
     else if (a <= 20) callback(null, list[0]);
     else if (a>20 && a<=30) return list[1];
@@ -40,7 +71,7 @@ maslahatBering (45, (err, data) =>{
       //     return list[5];
      // },4000);
     }
-}
+}  */
 
 //then/catch
 /*console.log("passed here 0");
@@ -57,7 +88,7 @@ console.log("passed here 1");  */
 
 //async/await
 
-async function run() {
+/*async function run() {
     let javob=await maslahatBering(29);
     console.log(javob);
      javob=await maslahatBering(36);
@@ -66,6 +97,6 @@ async function run() {
     console.log(javob);
 }
 
-run();
+run();  */
 
 
