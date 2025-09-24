@@ -1,4 +1,24 @@
-//TASK-A
+// task B
+
+function countDigits(x) {
+    let raqam =x.toString();
+    let count =0;
+
+    for(let i =0; i <raqam.length; i++) {
+        if(raqam[i] >="0" && raqam[i]<="9") {
+            count++;
+        } else if ("") {
+            console.log("raqam mavjud emas");
+        }
+    }
+    return count;
+}
+
+const result = countDigits("dgf545687");
+
+console.log("result:",result);
+console
+/*TASK-A
 
 
 function countLetter(x, y) {
@@ -15,7 +35,7 @@ function countLetter(x, y) {
 }
 
 const answer =countLetter("mamaqaldirog","m");
-console.log("answer:", answer);
+console.log("answer:", answer); */
 
 
 
