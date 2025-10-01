@@ -34,3 +34,22 @@ document.getElementById("create-form").addEventListener("submit", function (e) {
     });
 
 });
+
+document.addEventListener("click", function(e){
+    // delete 
+    console.log(e.target);
+    if(e.target.classList.contains("delete-me")){
+        if(confirm("Aniq uchirmoqchimisz?")) {
+            axios
+            .post("/delete-item", {id: e.target.getAttribute("data-id")})
+            .then((respose) => {
+                console.log(respose.data);
+                e.target.parentElement.parentElement.remove();
+            })
+            .catch((err)=>{
+                console.log("iltomos qaytadan harahat qiling");
+            });
+
+        }
+    }
+});

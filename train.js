@@ -1,6 +1,52 @@
+ //MITTASK C
+ const moment = require('moment');
+ moment().format("HH:mm");
+
+ class Shop {
+    constructor(bread,noodle,cola) {
+        this.bread=bread;
+        this.noodle=noodle;
+        this.cola=cola;
+    }
+
+    
+
+    qoldiq() {
+        console.log(`Hozir ${moment().format("HH:mm")} da ${this.bread} ta bread, ${this.noodle} ta noodle va ${this.cola} ta cola bor`);
+       
+    }
+
+    sotish(mahsulot, soni) {
+        if(this[mahsulot] >=soni){
+            this[mahsulot] -=soni;
+            console.log(`${soni} ta ${mahsulot} sotildi`);
+        } else{
+            console.log(`${nahsulot} yetarli emas`);
+        }
+
+    }
+
+    qabul(mahsulot,soni) {
+        this[mahsulot] += soni;
+        console.log(`${soni} ta ${mahsulot} qabul qilindi`)
+    }
+
+ }
+
+ const shop = new Shop(8,6,1);
+ shop.qoldiq();
+ shop.sotish("bread", 3);
+ shop.qabul("cola",2)
+ shop.qoldiq();
+
+
+ 
+
+
+
 // task B
 
-function countDigits(x) {
+/* function countDigits(x) {
     let raqam =x.toString();
     let count =0;
 
@@ -17,7 +63,7 @@ function countDigits(x) {
 const result = countDigits("dgf545687");
 
 console.log("result:",result);
-console
+console */
 /*TASK-A
 
 
