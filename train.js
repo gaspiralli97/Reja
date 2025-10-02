@@ -1,5 +1,18 @@
+//MITTASK D
+
+function comparedContent (x,y) {
+     if(x.length !== y.length) 
+        return false;
+    return x.split("").sort().join("")=== y.split("").sort().join("");
+
+}
+
+console.log(comparedContent("hello","olleh"));
+
+
+ 
  //MITTASK C
- const moment = require('moment');
+ /*const moment = require('moment');
  moment().format("HH:mm");
 
  class Shop {
@@ -16,8 +29,8 @@
        
     }
 
-    sotish(mahsulot, soni) {
-        if(this[mahsulot] >=soni){
+    sotish(mahsulot, soni) {                                                // qisman chatgptdan foydalandim sotish qismida
+        if(this[mahsulot] >=soni){ 
             this[mahsulot] -=soni;
             console.log(`${soni} ta ${mahsulot} sotildi`);
         } else{
@@ -38,6 +51,7 @@
  shop.sotish("bread", 3);
  shop.qabul("cola",2)
  shop.qoldiq();
+ */
 
 
  
