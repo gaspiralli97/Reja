@@ -1,4 +1,13 @@
-//MITTASK D
+
+//MITASK E
+function teskari (string) {
+    return string.split("").reverse().join("");
+}
+
+console.log(teskari("stop"));
+
+
+/*MITTASK D
 
 function comparedContent (x,y) {
      if(x.length !== y.length) 
@@ -7,7 +16,7 @@ function comparedContent (x,y) {
 
 }
 
-console.log(comparedContent("hello","olleh"));
+console.log(comparedContent("hello","olleh")); */
 
 
  
