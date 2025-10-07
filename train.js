@@ -1,11 +1,30 @@
+//MITASK F
 
+function findDoublers (x) {
+    if(typeof x!=="string"){
+        console.log("iltimos string qiymat kiriting");
+    }
+    let y ="";
+   for(let i=0; i <x.length; i++) {
+   if(y.includes(x[i])){
+       return true;
+     }
+     y+=x[i];
+   } 
+   return false;
+}
+
+console.log(findDoublers("iltimos"));
 //MITASK E
+/*
 function teskari (string) {
     return string.split("").reverse().join("");
 }
 
 console.log(teskari("stop"));
 
+
+*/ 
 
 /*MITTASK D
 
